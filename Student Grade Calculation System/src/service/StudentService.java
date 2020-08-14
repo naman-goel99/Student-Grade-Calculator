@@ -26,7 +26,7 @@ public class StudentService {
 			{
 				if(s[i]!=null)
 				{
-					if(s[i].getname()==null)
+					if(s[i].getname()==null || s[i].getname().equals("null"))
 						c2++;
 				}
 			}

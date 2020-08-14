@@ -42,7 +42,7 @@ public class StudentReport {
 	{
 		if(s==null)
 			throw new NullStudentObjectException();
-		else if(s.getname()==null)
+		else if(s.getname()==null || s.getname()=="null")
 			throw new NullNameException();
 		else if(s.getmarks()==null)
 			throw new NullMarksArrayException();
